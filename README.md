@@ -1,5 +1,5 @@
 hive-js - beetle
-[Donations: BRAMBunoQphKSeuDfpQ1kngwmmUo8rrks9]
+Donations: BRAMBunoQphKSeuDfpQ1kngwmmUo8rrks9
 =======
 
 Small hive beetle (Aethina tumida) is a small brown-black beetle 
