@@ -3,7 +3,13 @@ hive-js - beetle
 
 Small hive beetle (Aethina tumida) is a small brown-black beetle 
 with clubbed antennae that originated from sub-Saharan Africa.
-Donations: BRAMBunoQphKSeuDfpQ1kngwmmUo8rrks9
+
+Donations: 
+
+BLK to beetle BRAMBunoQphKSeuDfpQ1kngwmmUo8rrks9
+
+BTC to hive 142m1MpXHhymF4aASiWwYohe1Y55v5BQwc
+
 
 start.sh to setup env and run
 assuming blacksight-api is running on localhost but can be abywhere as blockr.io
@@ -109,10 +115,6 @@ Pull requests are very welcome. If you want to send us any code, try your best t
 
     # just client
     npm run test-client
-
-### Donation
-
-If you like Hive, you can also send us donations in BTC to 142m1MpXHhymF4aASiWwYohe1Y55v5BQwc
 
 ## License
 
