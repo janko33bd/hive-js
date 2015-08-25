@@ -13,8 +13,11 @@ BTC to hive 142m1MpXHhymF4aASiWwYohe1Y55v5BQwc
 
 start.sh to setup env and run
 assuming blacksight-api is running on localhost but can be abywhere as blockr.io
+
 which is this line
+
 https://github.com/janko33bd/cb-blockr/blob/cb-blacksight/src/index.js#L18
+
 so change it if you run it elsewhere
 
 Work in progress
