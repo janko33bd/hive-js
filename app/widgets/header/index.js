@@ -35,7 +35,6 @@ module.exports = function(el){
     ractive.set('denomination', getWallet().denomination)
     db.get('systemInfo', function(err, info){
       if(err) return console.error(err);
-      ractive.set('fiatCurrency', info.preferredCurrency)
     })
   })
 
@@ -45,11 +44,6 @@ module.exports = function(el){
 
   emitter.on('update-balance', function() {
     ractive.set('bitcoinBalance', getWallet().getBalance())
-  })
-
-  ractive.on('toggle', function(){
-    window.scrollTo(0, 0);
-    emitter.emit('toggle-menu', !ractive.get('menuOpen'))
   })
 
   function toggleIcon(open){
@@ -76,22 +70,6 @@ module.exports = function(el){
         emitter.emit('set-transactions', txs)
       })
     }
-  })
-
-  ractive.on('toggle-currencies', function(){
-    if(ractive.get('showFiat')) {
-      ractive.set('showFiat', false)
-    } else {
-      ractive.set('showFiat', true)
-    }
-  })
-
-  emitter.on('preferred-currency-changed', function(currency){
-    ractive.set('fiatCurrency', currency)
-  })
-
-  emitter.on('ticker', function(rates){
-    ractive.set('exchangeRates', rates)
   })
 
   function bitcoinToFiat(amount, exchangeRate) {
