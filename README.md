@@ -26,7 +26,7 @@ Work in progress
 
 ### Grab the source
 
-    git clone -b beetle git@github.com:janko33bd/hive-js.git
+    git clone -b beetle https://github.com/janko33bd/hive-js.git
     cd hive-js
     npm install
 
